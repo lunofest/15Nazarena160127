@@ -29,7 +29,7 @@ audio.addEventListener('ended', () => {
 
 // ---------------------- temporizador -------------------------
 function updateTimer() {
-    const targetDate = new Date("january 16, 2027 21:30:00").getTime();
+    const targetDate = new Date("january 16, 2027 21:00:00").getTime();
     const currentDate = new Date().getTime();
     const timeRemaining = targetDate - currentDate;
 
